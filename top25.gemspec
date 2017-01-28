@@ -1,17 +1,18 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'top25/version'
+require 'top/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "top25"
-  spec.version       = Top25::VERSION
-  spec.authors       = ["Ali Diyab"]
-  spec.email         = ["alidiyab1997@gmail.com"]
+  spec.version       = top25::VERSION
+  spec.authors       = ["Yardagan AL Hamed"]
+  spec.email         = ["gooryalhamed@hotmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{TODO: search for best 25 hotels,restaurants and beaches.}
+  spec.description   = %q{TODO: This gem is a cli data gem, it allows the user to search for the best 25 hotels,restaurants and beaches in the world.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -32,3 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
 end
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
